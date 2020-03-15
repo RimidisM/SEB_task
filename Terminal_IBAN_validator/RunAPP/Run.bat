@@ -1,0 +1,1 @@
+java -jar IBAN_valid.jar
