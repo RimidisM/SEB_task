@@ -1,7 +1,10 @@
 package iban_valid;
 
 /**
- *Class to contain and maintain main data
+ * Country names and IBAN length are not in the same Objects, because the data was taken from excell columns 
+ * https://www.nordea.com/en/our-services/cashmanagement/iban-validator-and-information/iban-countries/
+ * IBAN information is mapped in class IbanCheck.java in method formIbanData()
+ * Class to contain and maintain main data
  * @author rimid
  */
 public class IbanData {
